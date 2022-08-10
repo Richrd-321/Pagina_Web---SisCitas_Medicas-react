@@ -4,13 +4,17 @@ import Listado_Citas from "./components/Listado_Citas"
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto mt-20">
       <Header />
 
-      <Formulario />
+      <div className="mt-12 flex md:flex">
+        <Formulario />
 
-      <Listado_Citas />
-    </>
+        <Listado_Citas />
+      </div>
+
+      
+    </div>
   )
 }
 
